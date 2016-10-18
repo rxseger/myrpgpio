@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8xLEVEL_SHIFT
+D 8-bit Logic Level Converter
+K logic shift level
+$ENDCMP
+#
+$CMP CA56-12
+D Kingbright 4 x 7-segment common anode display
+K 7 SEGMENTS 4 display
+F http://www.kingbrightusa.com/images/catalog/SPEC/CA56-12EWA.pdf
+$ENDCMP
+#
+$CMP MW8675W_7SEG
+D Emerson MW8657W / KOR-611 Microwave Oven 4 x 7-segment common anode display
+K 7 SEGMENTS 4 display
+F https://medium.com/@rxseger/emerson-mw8675w-microwave-oven-teardown-salvaging-the-led-display-a27cd86580b3#.gqtouj9mk
+$ENDCMP
+#
+$CMP OPT101
+D Monolithic Photodiode with Transimpedence Amplifier
+K photodiode optics diode
+$ENDCMP
+#
+$CMP hbridge
+D H-Bridge with control input logic
+K hbridge control
+$ENDCMP
+#
+#End Doc Library
