@@ -809,6 +809,17 @@ F 3 "" H 900 2800 50  0000 C CNN
 	1    1400 2800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 5805CFB3
+P 800 6100
+F 0 "#PWR?" H 800 5950 50  0001 C CNN
+F 1 "+3.3V" H 800 6240 50  0000 C CNN
+F 2 "" H 800 6100 50  0000 C CNN
+F 3 "" H 800 6100 50  0000 C CNN
+	1    800  6100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	8500 5200 8500 5100
 Wire Wire Line
@@ -1136,17 +1147,6 @@ Wire Wire Line
 	3500 2700 8650 2700
 Wire Wire Line
 	3800 2900 8650 2900
-$Comp
-L +3.3V #PWR?
-U 1 1 5805CFB3
-P 800 6100
-F 0 "#PWR?" H 800 5950 50  0001 C CNN
-F 1 "+3.3V" H 800 6240 50  0000 C CNN
-F 2 "" H 800 6100 50  0000 C CNN
-F 3 "" H 800 6100 50  0000 C CNN
-	1    800  6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	800  6100 800  9500
 Connection ~ 800  6850
